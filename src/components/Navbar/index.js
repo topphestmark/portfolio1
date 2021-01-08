@@ -35,7 +35,7 @@ export default function Navbar({ toggleHamburger }) {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            Welcomne <LogoAvatar src={avatar} />
+            <LogoAvatar src={avatar} />
           </NavLogo>
           <HamburgerMenu onClick={toggleHamburger}>
             <FaBars />
@@ -55,18 +55,6 @@ export default function Navbar({ toggleHamburger }) {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="discover"
-                smooth={true}
-                duration={200}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                Discover
-              </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks
                 to="services"
                 smooth={true}
                 duration={200}
@@ -75,6 +63,18 @@ export default function Navbar({ toggleHamburger }) {
                 offset={-80}
               >
                 Services
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks
+                to="discover"
+                smooth={true}
+                duration={200}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                Discover
               </NavLinks>
             </NavItem>
             <NavItem>

@@ -24,8 +24,8 @@ export default function Home() {
       <Navbar toggleHamburger={toggleHamburger} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
       <Services />
+      <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
       <Footer />
     </>

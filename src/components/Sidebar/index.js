@@ -5,9 +5,7 @@ import {
   SidebarContainer,
   SidebarLink,
   SidebarMenu,
-  SidebarRoute,
   SidebarWrapper,
-  SideBthWrap,
 } from "./styles/sidebar";
 
 export default function Sidebar({ isOpen, toggleHamburger }) {
@@ -31,9 +29,6 @@ export default function Sidebar({ isOpen, toggleHamburger }) {
             Sign up
           </SidebarLink>
         </SidebarMenu>
-        <SideBthWrap>
-          <SidebarRoute to="/signin">Sign In</SidebarRoute>
-        </SideBthWrap>
       </SidebarWrapper>
     </SidebarContainer>
   );

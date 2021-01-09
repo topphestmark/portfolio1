@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/infoSection";
 import {
-  homeObjOne,
+  aboutSection,
   homeObjTwo,
   homeObjThree,
 } from "../components/infoSection/data";
@@ -23,7 +23,7 @@ export default function Home() {
       <Sidebar isOpen={isOpen} toggleHamburger={toggleHamburger} />
       <Navbar toggleHamburger={toggleHamburger} />
       <HeroSection />
-      <InfoSection {...homeObjOne} />
+      <InfoSection {...aboutSection} />
       <Services />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />

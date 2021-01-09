@@ -1,22 +1,23 @@
-import svg1 from "../../images/svg-1.svg";
+import profilePic from "../../images/profile_image.jpg";
 import svg2 from "../../images/svg-2.svg";
 import svg3 from "../../images/svg-3.svg";
 
-export const homeObjOne = {
+export const aboutSection = {
   id: "about",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  dark: true,
-  primary: true,
-  darkText: false,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  dark: false,
+  primary: false,
+  darkText: true,
   imgStart: false,
-  image: svg1,
-  alt: "Transfer",
-  topLine: "Premium",
-  headLine: "Unlimited Transaction with zero fees",
+  image: profilePic,
+  profileImg: true,
+  alt: "Topp Hestmark",
+  topLine: "About me",
+  headLine: "Front-end Developer",
   description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
+    "My name is Suphachai Hestmark, or 'Top' as a nickname. I'm a passionate developer who just simply love to code. I first started coding as a hobby, as interest within the programming grew I'd decided to make programming to become a full-time profession. As much as I love programming I also enjoying outdoor avtivity, meditation and constantly learning new stuff.",
   buttonLabel: "Get started",
 };
 
@@ -30,6 +31,7 @@ export const homeObjTwo = {
   darkText: true,
   imgStart: true,
   image: svg2,
+  profileImg: false,
   alt: "Piggy bank",
   topLine: "Save More",
   headLine: "Login to your account at any time",
@@ -48,6 +50,7 @@ export const homeObjThree = {
   darkText: true,
   imgStart: false,
   image: svg3,
+  profileImg: false,
   alt: "Receip",
   topLine: "Join our team",
   headLine: "Creating an account is extremely easy",

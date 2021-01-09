@@ -29,6 +29,7 @@ export default function InfoSection({
   primary,
   dark,
   dark2,
+  profileImg,
 }) {
   return (
     <InfoContainer lightBg={lightBg} id={id}>
@@ -59,7 +60,7 @@ export default function InfoSection({
           </Column1>
           <Column2>
             <ImgWrap>
-              <Image src={image} alt={alt} />
+              <Image profileImg={profileImg} src={image} alt={alt} />
             </ImgWrap>
           </Column2>
         </InfoRow>

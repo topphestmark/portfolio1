@@ -15,7 +15,7 @@ export default function HeroSection() {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Front-end Developer</HeroH1>
+        <HeroH1>Hello</HeroH1>
         <HeroP>
           I simply design and code simple things, and I love what I do.
         </HeroP>

@@ -69,17 +69,19 @@ export const ProjectsCard = styled.div`
 `;
 
 export const ProjectsIcon = styled.img`
-  width: 160px;
-  height: auto;
+  height: 160px;
+  width: auto;
   margin-bottom: 10px;
 `;
 
 export const ProjectsH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
+  opacity: 0.8;
 `;
 
 export const ProjectsP = styled.p`
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
+  opacity: 0.75;
 `;

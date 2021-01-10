@@ -50,5 +50,5 @@ export const homeObjThree = {
   topLine: "Contact",
   headLine: "Let's collaborate",
   description:
-    "Email me at top_hestmark@yahoo.no or call +47 942 38 520 for an arrangement.",
+    "I'm seeking out opportunities to collaborate with companies, agencies or individuals. I'll like to bring my skills to the table where we can work together.",
 };

@@ -1,3 +1,3 @@
 # Portfolio website
 
-- My personal website about myself.
+Portfolio website with ReactJS and styled components.

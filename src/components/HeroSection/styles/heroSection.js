@@ -26,7 +26,9 @@ export const HeroContainer = styled.div`
   }
 `;
 
-export const HeroBg = styled.div`
+export const HeroBg = styled.div.attrs((props) => ({
+  type: "video/mp4",
+}))`
   position: absolute;
   width: 100%;
   height: 100%;
@@ -56,9 +58,11 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  color: #fff;
-  font-size: 48px;
+  color: ${(props) => props.theme.colors.primary};
+  font-size: 6rem;
   text-align: center;
+  animation: ${(props) => props.theme.slideTop.firstAnimation};
+  ${(props) => props.theme.slideTop.keyframes};
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -74,6 +78,8 @@ export const HeroP = styled.p`
   font-size: 24px;
   text-align: center;
   max-width: 600px;
+  animation: ${(props) => props.theme.slideTop.secondAnimation};
+  ${(props) => props.theme.slideTop.keyframes};
 
   @media screen and (max-width: 768px) {
     font-size: 24px;

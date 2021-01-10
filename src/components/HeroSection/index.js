@@ -1,4 +1,4 @@
-import Video from "../../videos/video.mp4";
+import bgVideo from "../../videos/smoke-slow-motion.mp4";
 import {
   HeroBg,
   HeroContainer,
@@ -12,10 +12,10 @@ export default function HeroSection() {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg src={bgVideo} loop autoPlay muted />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Hi</HeroH1>
+        <HeroH1>Hi.</HeroH1>
         <HeroP>
           I simply design and code simple things, and I love what I do.
         </HeroP>

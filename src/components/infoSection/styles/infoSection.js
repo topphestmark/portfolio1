@@ -61,23 +61,29 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 2rem;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) =>
     lightText ? theme.colors.light2 : theme.colors.dark1};
+  opacity: 0.8;
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 1.6rem;
   }
 `;
 
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? theme.colors.dark1 : "#fff")};
+  opacity: 0.75;
+
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
 `;
 
 export const Column2 = styled.div`

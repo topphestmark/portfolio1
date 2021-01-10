@@ -23,9 +23,6 @@ const InfoSection = ({
   description,
   image,
   alt,
-  primary,
-  dark,
-  dark2,
   profileImg,
 }) => {
   return (

@@ -59,17 +59,15 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
   color: ${(props) => props.theme.colors.primary};
-  font-size: 6rem;
+  font-size: 10rem;
   text-align: center;
   animation: ${(props) => props.theme.slideTop.firstAnimation};
-  ${(props) => props.theme.slideTop.keyframes};
 
-  @media screen and (max-width: 768px) {
-    font-size: 40px;
-  }
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 8rem;
   }
+
+  ${(props) => props.theme.slideTop.keyframes};
 `;
 
 export const HeroP = styled.p`
@@ -79,12 +77,10 @@ export const HeroP = styled.p`
   text-align: center;
   max-width: 600px;
   animation: ${(props) => props.theme.slideTop.secondAnimation};
-  ${(props) => props.theme.slideTop.keyframes};
 
-  @media screen and (max-width: 768px) {
-    font-size: 24px;
-  }
   @media screen and (max-width: 480px) {
     font-size: 18px;
   }
+
+  ${(props) => props.theme.slideTop.keyframes};
 `;

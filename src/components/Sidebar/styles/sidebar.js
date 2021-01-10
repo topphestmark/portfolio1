@@ -46,6 +46,10 @@ export const SidebarMenu = styled.ul`
   }
 `;
 
+export const SidebarMenuList = styled.li`
+  list-style: none;
+`;
+
 export const SidebarLink = styled(LinkScroll)`
   display: flex;
   align-items: center;

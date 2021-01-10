@@ -14,7 +14,7 @@ import {
   LogoAvatar,
 } from "./styles/navbar";
 
-export default function Navbar({ toggleHamburger }) {
+const Navbar = ({ toggleHamburger }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
@@ -94,4 +94,6 @@ export default function Navbar({ toggleHamburger }) {
       </Nav>
     </IconContext.Provider>
   );
-}
+};
+
+export default Navbar;

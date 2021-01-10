@@ -6,6 +6,7 @@ import {
   SidebarLink,
   SidebarMenu,
   SidebarWrapper,
+  SidebarMenuList,
 } from "./styles/sidebar";
 
 export default function Sidebar({ isOpen, toggleHamburger }) {
@@ -16,18 +17,26 @@ export default function Sidebar({ isOpen, toggleHamburger }) {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggleHamburger}>
-            About
-          </SidebarLink>
-          <SidebarLink to="projects" onClick={toggleHamburger}>
-            Projects
-          </SidebarLink>
-          <SidebarLink to="skills" onClick={toggleHamburger}>
-            Skills
-          </SidebarLink>
-          <SidebarLink to="contact" onClick={toggleHamburger}>
-            Contact
-          </SidebarLink>
+          <SidebarMenuList>
+            <SidebarLink to="about" onClick={toggleHamburger}>
+              About
+            </SidebarLink>
+          </SidebarMenuList>
+          <SidebarMenuList>
+            <SidebarLink to="projects" onClick={toggleHamburger}>
+              Projects
+            </SidebarLink>
+          </SidebarMenuList>
+          <SidebarMenuList>
+            <SidebarLink to="skills" onClick={toggleHamburger}>
+              Skills
+            </SidebarLink>
+          </SidebarMenuList>
+          <SidebarMenuList>
+            <SidebarLink to="contact" onClick={toggleHamburger}>
+              Contact
+            </SidebarLink>
+          </SidebarMenuList>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

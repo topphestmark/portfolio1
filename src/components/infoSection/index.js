@@ -1,6 +1,4 @@
-import { Button1 } from "../../shared/Button/Button1";
 import {
-  BtnWrap,
   Column1,
   Column2,
   Heading,
@@ -14,7 +12,7 @@ import {
   TopLine,
 } from "./styles/infoSection";
 
-export default function InfoSection({
+const InfoSection = ({
   lightBg,
   id,
   imgStart,
@@ -23,14 +21,13 @@ export default function InfoSection({
   headLine,
   darkText,
   description,
-  buttonLabel,
   image,
   alt,
   primary,
   dark,
   dark2,
   profileImg,
-}) {
+}) => {
   return (
     <InfoContainer lightBg={lightBg} id={id}>
       <InfoWrapper>
@@ -40,22 +37,6 @@ export default function InfoSection({
               <TopLine> {topLine} </TopLine>
               <Heading lightText={lightText}> {headLine} </Heading>
               <Subtitle darkText={darkText}> {description} </Subtitle>
-              <BtnWrap>
-                <Button1
-                  to="home"
-                  duration={500}
-                  spy={true}
-                  smooth={true}
-                  primary={primary ? 1 : 0}
-                  dark={dark ? 1 : 0}
-                  dark2={dark2 ? 1 : 0}
-                  exact="true"
-                  offset={-10}
-                >
-                  {" "}
-                  {buttonLabel}{" "}
-                </Button1>
-              </BtnWrap>
             </TextWrapper>
           </Column1>
           <Column2>
@@ -67,4 +48,6 @@ export default function InfoSection({
       </InfoWrapper>
     </InfoContainer>
   );
-}
+};
+
+export default InfoSection;

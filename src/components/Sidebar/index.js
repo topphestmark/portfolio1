@@ -19,14 +19,14 @@ export default function Sidebar({ isOpen, toggleHamburger }) {
           <SidebarLink to="about" onClick={toggleHamburger}>
             About
           </SidebarLink>
-          <SidebarLink to="discover" onClick={toggleHamburger}>
-            Discover
+          <SidebarLink to="projects" onClick={toggleHamburger}>
+            Projects
           </SidebarLink>
-          <SidebarLink to="services" onClick={toggleHamburger}>
-            Services
+          <SidebarLink to="skills" onClick={toggleHamburger}>
+            Skills
           </SidebarLink>
-          <SidebarLink to="signup" onClick={toggleHamburger}>
-            Sign up
+          <SidebarLink to="contact" onClick={toggleHamburger}>
+            Contact
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>

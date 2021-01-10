@@ -55,38 +55,38 @@ export default function Navbar({ toggleHamburger }) {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="services"
+                to="projects"
                 smooth={true}
                 duration={200}
                 spy={true}
                 exact="true"
                 offset={-80}
               >
-                Services
+                Projects
               </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks
-                to="discover"
+                to="skills"
                 smooth={true}
                 duration={200}
                 spy={true}
                 exact="true"
                 offset={-80}
               >
-                Discover
+                Skills
               </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks
-                to="signup"
+                to="contact"
                 smooth={true}
                 duration={200}
                 spy={true}
                 exact="true"
                 offset={-80}
               >
-                Sign up
+                Contact
               </NavLinks>
             </NavItem>
           </NavMenu>

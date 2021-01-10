@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 import theme from "../../../shared/theme";
 
-export const ServicesContainer = styled.section`
+export const ProjectsContainer = styled.section`
   min-height: 800px;
   padding: 15px 0;
   display: flex;
@@ -20,7 +20,7 @@ export const ServicesContainer = styled.section`
   }
 `;
 
-export const ServicesH1 = styled.h1`
+export const ProjectsH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;
@@ -30,7 +30,7 @@ export const ServicesH1 = styled.h1`
   }
 `;
 
-export const ServicesWrapper = styled.div`
+export const ProjectsWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
@@ -49,7 +49,7 @@ export const ServicesWrapper = styled.div`
   }
 `;
 
-export const ServicesCard = styled.div`
+export const ProjectsCard = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -68,18 +68,18 @@ export const ServicesCard = styled.div`
   }
 `;
 
-export const ServicesIcon = styled.img`
-  height: 160px;
+export const ProjectsIcon = styled.img`
   width: 160px;
+  height: auto;
   margin-bottom: 10px;
 `;
 
-export const ServicesH2 = styled.h2`
+export const ProjectsH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
 `;
 
-export const ServicesP = styled.p`
+export const ProjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
 `;

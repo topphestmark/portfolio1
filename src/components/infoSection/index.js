@@ -10,6 +10,8 @@ import {
   Subtitle,
   TextWrapper,
   TopLine,
+  EmailWrapper,
+  EmailLink,
 } from "./styles/infoSection";
 
 const InfoSection = ({
@@ -24,6 +26,8 @@ const InfoSection = ({
   image,
   alt,
   profileImg,
+  eMail,
+  hrefEmail,
 }) => {
   return (
     <InfoContainer lightBg={lightBg} id={id}>
@@ -33,7 +37,12 @@ const InfoSection = ({
             <TextWrapper>
               <TopLine> {topLine} </TopLine>
               <Heading lightText={lightText}> {headLine} </Heading>
-              <Subtitle darkText={darkText}> {description} </Subtitle>
+              <Subtitle darkText={darkText}>{description}</Subtitle>
+              <EmailWrapper eMail={eMail}>
+                <EmailLink href={hrefEmail}>
+                  Click here to send me an email
+                </EmailLink>
+              </EmailWrapper>
             </TextWrapper>
           </Column1>
           <Column2>

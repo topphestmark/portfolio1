@@ -13,10 +13,12 @@ export const aboutSection = {
   image: profilePic,
   profileImg: true,
   alt: "Topp Hestmark",
-  topLine: "About me",
+  topLine: "ABOUT ME",
   headLine: "Front-end Developer",
   description:
     "My name is Suphachai Hestmark, or 'Top' as a nickname. I'm a passionate developer who just simply love to code. I first started coding as a hobby, as interest within the programming grew I'd decided to make programming to become a full-time profession. As much as I love programming I also enjoying outdoor avtivity, meditation and constantly learning new stuff.",
+  eMail: false,
+  hrefEmail: null,
 };
 
 export const homeObjTwo = {
@@ -29,11 +31,13 @@ export const homeObjTwo = {
   imgStart: true,
   image: svg2,
   profileImg: false,
-  alt: "Piggy bank",
-  topLine: "Skills",
-  headLine: "if (soft === hard) {return true;}",
+  alt: "Skills",
+  topLine: "if (softSkills === hardSkills) return true;",
+  headLine: "SKILLS & TOOLS",
   description:
-    "I do believe that soft skills matter as much as hard skills. Being good with human and writing clean code increase will take one further.",
+    "HTML, CSS, JavaScript, React, Redux, Sass, styled-components, SEO, UX/UI, VSCode, Adobe XD, Lightroom, Photoshop",
+  eMail: false,
+  hrefEmail: null,
 };
 
 export const homeObjThree = {
@@ -46,9 +50,11 @@ export const homeObjThree = {
   imgStart: false,
   image: svg3,
   profileImg: false,
-  alt: "Receip",
-  topLine: "Contact",
+  alt: "Collaboration",
+  topLine: "CONTACT",
   headLine: "Let's collaborate",
   description:
     "I'm seeking out opportunities to collaborate with companies, agencies or individuals. I'll like to bring my skills to the table where we can work together.",
+  eMail: true,
+  hrefEmail: "mailto:top_hestmark@yahoo.no?subject=Hi!",
 };

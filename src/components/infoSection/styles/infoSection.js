@@ -55,8 +55,8 @@ export const TopLine = styled.p`
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
-  text-transform: uppercase;
   margin-bottom: 16px;
+  opacity: 0.8;
 `;
 
 export const Heading = styled.h1`
@@ -95,6 +95,7 @@ export const Column2 = styled.div`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
+  text-align: center;
 `;
 
 export const Image = styled.img`
@@ -102,4 +103,20 @@ export const Image = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
   border-radius: ${({ profileImg }) => (profileImg ? "50%" : "0")};
+
+  @media screen and (max-width: 768px) {
+    max-width: ${({ profileImg }) => (profileImg ? "350px" : "")};
+  }
+`;
+
+export const EmailWrapper = styled.div`
+  display: ${({ eMail }) => (eMail ? "block" : "none")};
+`;
+
+export const EmailLink = styled.a.attrs(() => ({
+  type: "email",
+}))`
+  text-decoration: none;
+  color: ${theme.colors.primary};
+  opacity: 0.8;
 `;

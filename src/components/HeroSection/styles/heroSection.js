@@ -26,7 +26,7 @@ export const HeroContainer = styled.div`
   }
 `;
 
-export const HeroBg = styled.div.attrs((props) => ({
+export const HeroBg = styled.div.attrs(() => ({
   type: "video/mp4",
 }))`
   position: absolute;
@@ -59,12 +59,12 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
   color: ${(props) => props.theme.colors.primary};
-  font-size: 10rem;
+  font-size: 18rem;
   text-align: center;
   animation: ${(props) => props.theme.slideTop.firstAnimation};
 
   @media screen and (max-width: 480px) {
-    font-size: 8rem;
+    font-size: 12rem;
   }
 
   ${(props) => props.theme.slideTop.keyframes};

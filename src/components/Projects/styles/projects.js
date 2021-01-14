@@ -49,7 +49,9 @@ export const ProjectsWrapper = styled.div`
   }
 `;
 
-export const ProjectsCard = styled.div`
+export const ProjectsCard = styled.a.attrs(() => ({
+  target: "_blank",
+}))`
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -59,6 +61,8 @@ export const ProjectsCard = styled.div`
   height: 340px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: ${theme.colors.dark4};
   transition: all 0.2s ease-in-out;
 
   &:hover {

@@ -5,8 +5,8 @@ import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/infoSection";
 import {
   aboutSection,
-  homeObjTwo,
-  homeObjThree,
+  skillsSection,
+  contactSection,
 } from "../components/infoSection/data";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
@@ -25,8 +25,8 @@ export default function Home() {
       <HeroSection />
       <InfoSection {...aboutSection} />
       <Projects />
-      <InfoSection {...homeObjTwo} />
-      <InfoSection {...homeObjThree} />
+      <InfoSection {...skillsSection} />
+      <InfoSection {...contactSection} />
       <Footer />
     </>
   );

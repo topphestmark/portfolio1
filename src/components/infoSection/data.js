@@ -1,6 +1,6 @@
 import profilePic from "../../images/profile_image.jpg";
-import svg2 from "../../images/code.svg";
-import svg3 from "../../images/collaborate.svg";
+import svg2 from "../../images/frameworks.svg";
+import svg3 from "../../images/paperfly-mail.svg";
 
 export const aboutSection = {
   id: "about",
@@ -21,7 +21,7 @@ export const aboutSection = {
   hrefEmail: null,
 };
 
-export const homeObjTwo = {
+export const skillsSection = {
   id: "skills",
   lightBg: true,
   lightText: false,
@@ -40,7 +40,7 @@ export const homeObjTwo = {
   hrefEmail: null,
 };
 
-export const homeObjThree = {
+export const contactSection = {
   id: "contact",
   lightBg: false,
   lightText: true,

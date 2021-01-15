@@ -39,9 +39,7 @@ const InfoSection = ({
               <Heading lightText={lightText}> {headLine} </Heading>
               <Subtitle darkText={darkText}>{description}</Subtitle>
               <EmailWrapper eMail={eMail}>
-                <EmailLink href={hrefEmail}>
-                  Click here to send me an email
-                </EmailLink>
+                <EmailLink href={hrefEmail}>Send me an email</EmailLink>
               </EmailWrapper>
             </TextWrapper>
           </Column1>

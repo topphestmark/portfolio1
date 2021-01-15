@@ -89,11 +89,12 @@ export const NavLinks = styled(LinkScroll)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid ${(props) => props.theme.colors.primary} !important;
+    border-bottom: 3px solid ${theme.colors.primary};
+    color: ${theme.colors.primary};
   }
 
   &:hover {
-    color: ${(props) => props.theme.colors.primary};
+    color: ${theme.colors.primary};
     transition: 0.2 ease-in-out;
   }
 `;

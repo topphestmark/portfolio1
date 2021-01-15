@@ -56,7 +56,7 @@ export const TopLine = styled.p`
   font-weight: 700;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
-  opacity: 0.8;
+  opacity: 0.9;
 `;
 
 export const Heading = styled.h1`
@@ -118,5 +118,19 @@ export const EmailLink = styled.a.attrs(() => ({
 }))`
   text-decoration: none;
   color: ${theme.colors.primary};
-  opacity: 0.8;
+  animation: blinking 2s linear infinite;
+
+  @keyframes blinking {
+    0% {
+      opacity: 0.5;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0.5;
+    }
+  }
 `;

@@ -117,20 +117,8 @@ export const EmailLink = styled.a.attrs(() => ({
   type: "email",
 }))`
   text-decoration: none;
-  color: ${theme.colors.primary};
-  animation: blinking 2s linear infinite;
-
-  @keyframes blinking {
-    0% {
-      opacity: 0.5;
-    }
-
-    50% {
-      opacity: 1;
-    }
-
-    100% {
-      opacity: 0.5;
-    }
-  }
+  padding: 12px;
+  color: white;
+  background: ${theme.colors.primary};
+  opacity: 0.9;
 `;

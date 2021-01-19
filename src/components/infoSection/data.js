@@ -16,7 +16,7 @@ export const aboutSection = {
   topLine: "ABOUT ME",
   headLine: "Front-end Developer",
   description:
-    "My name is Suphachai Hestmark, or 'Top' as a nickname. I'm a passionate developer who just simply love to code. I first started coding as a hobby, as interest within the programming grew I'd decided to make programming to become a full-time profession. As much as I love programming I also enjoying outdoor avtivity, meditation and constantly learning new stuff.",
+    "My name is Suphachai Hestmark, or 'Top' as a nickname. I'm a passionate developer with passion for programming. It started out as a hobby, before I committed to myself to make programming to bacome my full-time profession. Apart from programming I do also love to travel, exercise and learning new stuff.",
   eMail: false,
   hrefEmail: null,
 };
@@ -32,7 +32,7 @@ export const skillsSection = {
   image: svg2,
   profileImg: false,
   alt: "Skills",
-  topLine: "if (softSkills === hardSkills) return true;",
+  topLine: "MY BELTS",
   headLine: "SKILLS & TOOLS",
   description:
     "HTML, CSS, JavaScript, React, Redux, Sass, styled-components, SEO, UX/UI, VSCode, Adobe XD, Lightroom, Photoshop",

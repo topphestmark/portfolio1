@@ -1,17 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { animateScroll as scroll } from "react-scroll";
-import avatar from "../../images/ninja-avatar.png";
 import {
   Nav,
   NavbarContainer,
-  NavLogo,
   HamburgerMenu,
   NavMenu,
   NavItem,
   NavLinks,
-  LogoAvatar,
 } from "./styles/navbar";
 
 const Navbar = ({ toggleHamburger }) => {
@@ -26,17 +22,10 @@ const Navbar = ({ toggleHamburger }) => {
     window.addEventListener("scroll", changeNav);
   }, []);
 
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  };
-
   return (
     <IconContext.Provider value={{ color: "#fff" }}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/" onClick={toggleHome}>
-            <LogoAvatar src={avatar} />
-          </NavLogo>
           <HamburgerMenu onClick={toggleHamburger}>
             <FaBars />
           </HamburgerMenu>

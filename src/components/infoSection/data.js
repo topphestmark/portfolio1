@@ -1,6 +1,6 @@
 import profilePic from "../../images/profile_image.jpg";
 import svg2 from "../../images/frameworks.svg";
-import svg3 from "../../images/paperfly-mail.svg";
+import svg3 from "../../images/mail.svg";
 
 export const aboutSection = {
   id: "about",
@@ -32,8 +32,8 @@ export const skillsSection = {
   image: svg2,
   profileImg: false,
   alt: "Skills",
-  topLine: "MY BELTS",
-  headLine: "SKILLS & TOOLS",
+  topLine: "SKILLS",
+  headLine: "TECH & TOOLS",
   description:
     "HTML, CSS, JavaScript, React, Redux, Sass, styled-components, SEO, UX/UI, VSCode, Adobe XD, Lightroom, Photoshop",
   eMail: false,

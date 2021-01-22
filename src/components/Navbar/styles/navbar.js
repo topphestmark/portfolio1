@@ -1,5 +1,4 @@
 import styled from "styled-components/macro";
-import { Link as LinkRouter } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import theme from "../../../shared/theme";
 
@@ -22,30 +21,12 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 80px;
   width: 100%;
   padding: 0 24px;
   max-width: 1100px;
   z-index: 1;
-`;
-
-export const NavLogo = styled(LinkRouter)`
-  justify-self: flex-start;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  margin-left: 28px;
-
-  @media screen and (max-width: 480px) {
-    margin-left: 0px;
-  }
-`;
-
-export const LogoAvatar = styled.img.attrs({
-  alt: "Avatar",
-})`
-  width: 40px;
 `;
 
 export const HamburgerMenu = styled.div`

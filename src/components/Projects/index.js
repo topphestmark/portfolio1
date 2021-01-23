@@ -32,7 +32,7 @@ export default function Projects() {
             A clone version of netflix banner with YouTube trailer, API by TMDb.
           </ProjectsP>
         </ProjectsCard>
-        <ProjectsCard href="https://covid-19-tracker-3d6d5.web.app/">
+        <ProjectsCard href="https://disease-covid-19-tracker.netlify.app/">
           <ProjectsIcon src={Image3} alt="Statistic data" />
           <ProjectsH2>Covid-19 tracker</ProjectsH2>
           <ProjectsP>

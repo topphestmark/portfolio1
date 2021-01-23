@@ -1,5 +1,7 @@
 # Portfolio website
 
-[To the site](https://suphachai-hestmark.netlify.app/)
+[Take me to the site](https://suphachai-hestmark.netlify.app/)
+
+## Screenshot
 
 ![Screenshot](./src/images/page-draft.png)

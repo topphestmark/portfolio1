@@ -1,7 +1,8 @@
 import Image1 from "../../images/rocket.svg";
 import Image2 from "../../images/netflix.svg";
-import Image3 from "../../images/statistic.svg";
+import Image3 from "../../images/covid-19.svg";
 import Image4 from "../../images/social-media.svg";
+import Image5 from "../../images/stripe.svg";
 
 import {
   ProjectsContainer,
@@ -18,6 +19,14 @@ export default function Projects() {
     <ProjectsContainer id="projects">
       <ProjectsH1>Recent projects</ProjectsH1>
       <ProjectsWrapper>
+        <ProjectsCard href="https://e-shop-dbc41.web.app/">
+          <ProjectsIcon src={Image5} alt="Commerce" />
+          <ProjectsH2>E-Shop</ProjectsH2>
+          <ProjectsP>
+            Mini gadgets e-commerce web-store with checkout functionalite and
+            stripe payment integrated.
+          </ProjectsP>
+        </ProjectsCard>
         <ProjectsCard href="https://topphestmark.github.io/spacex-missions/index.html">
           <ProjectsIcon src={Image1} alt="Space program" />
           <ProjectsH2>SpaceX Missions</ProjectsH2>
@@ -33,7 +42,7 @@ export default function Projects() {
           </ProjectsP>
         </ProjectsCard>
         <ProjectsCard href="https://disease-covid-19-tracker.netlify.app/">
-          <ProjectsIcon src={Image3} alt="Statistic data" />
+          <ProjectsIcon src={Image3} alt="Covid-19 data" />
           <ProjectsH2>Covid-19 tracker</ProjectsH2>
           <ProjectsP>
             Total Covid-19 cases from around the world, data from disease.sh.

@@ -56,7 +56,7 @@ export const contactSection = {
   topLine: "CONTACT",
   headLine: "Let's collaborate",
   description:
-    "I'm seeking out opportunities to collaborate with companies, agencies or individuals. I'll like to bring my skills to the table where we can work together.",
+    "I'm seeking out opportunities to collaborate with companies, agencies or individuals. I'll like to bring my skills to the table where we can work together. Send me an e-mail or leave a comment.",
   eMail: true,
   hrefEmail: "mailto:top_hestmark@yahoo.no?subject=Hi!",
   contactForm: true,

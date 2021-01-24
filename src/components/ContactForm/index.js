@@ -1,24 +1,30 @@
 import React from "react";
+import {
+  FormHeader,
+  Form,
+  Label,
+  Input,
+  TextArea,
+  Button,
+} from "./styles/contactForm";
 
 const ContactForm = () => {
   return (
-    <form name="contact" method="POST" data-netlify="true">
-      <p>
-        <label>Your Name:</label>
-        <input type="text" name="name" />
-      </p>
-      <p>
-        <label>Your Email:</label>
-        <input type="email" name="email" />
-      </p>
-      <p>
-        <label>Message:</label>
-        <textarea name="message"></textarea>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
+    <>
+      <FormHeader>Comments</FormHeader>
+      <Form name="contact" method="POST" data-netlify="true">
+        <Label>Name:</Label>
+        <Input type="text" name="name" required />
+
+        <Label>Email:</Label>
+        <Input type="email" name="email" />
+
+        <Label>Message:</Label>
+        <TextArea name="message" rows="4"></TextArea>
+
+        <Button type="submit">Send</Button>
+      </Form>
+    </>
   );
 };
 

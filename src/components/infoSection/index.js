@@ -13,6 +13,7 @@ import {
   EmailWrapper,
   EmailLink,
 } from "./styles/infoSection";
+import ContactForm from "../ContactForm";
 
 const InfoSection = ({
   lightBg,
@@ -28,6 +29,7 @@ const InfoSection = ({
   profileImg,
   eMail,
   hrefEmail,
+  contactForm,
 }) => {
   return (
     <InfoContainer lightBg={lightBg} id={id}>
@@ -45,7 +47,11 @@ const InfoSection = ({
           </Column1>
           <Column2>
             <ImgWrap>
-              <Image profileImg={profileImg} src={image} alt={alt} />
+              {contactForm ? (
+                <ContactForm />
+              ) : (
+                <Image profileImg={profileImg} src={image} alt={alt} />
+              )}
             </ImgWrap>
           </Column2>
         </InfoRow>

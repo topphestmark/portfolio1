@@ -12,7 +12,7 @@ const ContactForm = () => {
   return (
     <>
       <FormHeader>Comments</FormHeader>
-      <Form name="contact" method="post" netlify netlify-honeypot="bot-field">
+      <Form name="contact" method="post">
         <input type="hidden" name="contact" value="contact" />
 
         <Label>Name:</Label>

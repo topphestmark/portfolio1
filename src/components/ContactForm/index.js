@@ -12,7 +12,7 @@ const ContactForm = () => {
   return (
     <>
       <FormHeader>Comments</FormHeader>
-      <Form name="contact" action="POST" data-netlify="true">
+      <Form name="contact" method="POST" data-netlify="true">
         <Label>Name:</Label>
         <Input type="text" name="name" required />
 

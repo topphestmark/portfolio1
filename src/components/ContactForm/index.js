@@ -13,7 +13,7 @@ const ContactForm = () => {
     <>
       <FormHeader>Comments</FormHeader>
       <Form name="contact" method="post" data-netlify="true">
-        <input type="hidden" name="contact" value="contact" />
+        <input type="hidden" name="form-name" value="contact" />
 
         <Label>Name:</Label>
         <Input type="text" name="name" required />

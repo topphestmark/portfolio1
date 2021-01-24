@@ -16,7 +16,7 @@ export default function HeroSection() {
       </HeroBg>
       <HeroContent>
         <HeroH1>Hi.</HeroH1>
-        <HeroP>I simply code and build things, and I love what I do.</HeroP>
+        <HeroP>Nice to see you, have a look around.</HeroP>
       </HeroContent>
     </HeroContainer>
   );

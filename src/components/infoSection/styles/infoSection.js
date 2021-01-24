@@ -120,5 +120,5 @@ export const EmailLink = styled.a.attrs(() => ({
   padding: 12px;
   color: white;
   background: ${theme.colors.primary};
-  opacity: 0.9;
+  opacity: 0.85;
 `;

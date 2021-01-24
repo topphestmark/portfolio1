@@ -1,15 +1,18 @@
 import React, { useState } from "react";
-import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
-import HeroSection from "../components/HeroSection";
-import InfoSection from "../components/infoSection";
+import {
+  Sidebar,
+  Navbar,
+  HeroSection,
+  InfoSection,
+  Projects,
+  Footer,
+} from "../components";
+
 import {
   aboutSection,
   skillsSection,
   contactSection,
-} from "../components/infoSection/data";
-import Projects from "../components/Projects";
-import Footer from "../components/Footer";
+} from "../components/InfoSection/data";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);

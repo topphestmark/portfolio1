@@ -12,7 +12,7 @@ import {
   aboutSection,
   skillsSection,
   contactSection,
-} from "../components/InfoSection/data";
+} from "../components/infoSection/data";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);

@@ -19,10 +19,10 @@ const ContactForm = () => {
         <Input type="text" name="name" required />
 
         <Label>Email:</Label>
-        <Input type="email" name="email" />
+        <Input type="email" name="email" required />
 
         <Label>Message:</Label>
-        <TextArea name="message" rows="4" />
+        <TextArea minLength="12" name="message" rows="4" />
 
         <Button type="submit">Send</Button>
       </Form>

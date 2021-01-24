@@ -34,18 +34,25 @@ const ContactForm = () => {
   return (
     <>
       <FormHeader>Comments</FormHeader>
-      <Form name="contact" method="POST" netlify onSubmit={handleSubmit}>
+      <Form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        onSubmit={handleSubmit}
+      >
         <input type="hidden" name="contact" value="stranger" />
         <Label>Name:</Label>
-        <Input type="text" name="name" onChange={handleSubmit} required />
+        <Input type="text" name="name" required />
 
         <Label>Email:</Label>
-        <Input type="email" name="email" onChange={handleSubmit} />
+        <Input type="email" name="email" />
 
         <Label>Message:</Label>
-        <TextArea name="message" rows="4" onChange={handleSubmit} />
+        <TextArea name="message" rows="4" />
 
-        <Button type="submit">Send</Button>
+        <Button onChange={handleSubmit} type="submit">
+          Send
+        </Button>
       </Form>
     </>
   );

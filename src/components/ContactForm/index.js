@@ -17,14 +17,14 @@ const ContactForm = () => {
       .join("&");
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event, name) => {
     event.preventDefault();
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
         contact: event.target.getAttribute("name"),
-        // ...name,
+        ...name,
       }),
     })
       .then()
@@ -34,12 +34,7 @@ const ContactForm = () => {
   return (
     <>
       <FormHeader>Comments</FormHeader>
-      <Form
-        name="contact"
-        method="post"
-        data-netlify="true"
-        onSubmit={handleSubmit}
-      >
+      <Form name="contact" method="POST" netlify onSubmit={handleSubmit}>
         <input type="hidden" name="contact" value="stranger" />
         <Label>Name:</Label>
         <Input type="text" name="name" onChange={handleSubmit} required />

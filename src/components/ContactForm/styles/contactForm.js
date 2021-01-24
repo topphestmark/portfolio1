@@ -40,6 +40,7 @@ export const TextArea = styled.textarea`
 export const Button = styled.button`
   margin-top: 12px;
   padding: 12px 50px;
+  font-size: 16px;
   background-color: transparent;
   background: ${(props) => props.theme.colors.primary};
   color: white;

@@ -16,7 +16,7 @@ export const aboutSection = {
   topLine: "ABOUT ME",
   headLine: "Front-end Developer",
   description:
-    "My name is Suphachai Hestmark, or 'Top' as a nickname. I'm a passionate developer with passion for programming. It started out as a hobby, before I committed to myself to make programming to bacome my full-time profession. Apart from programming I do also love to travel, exercise and learning new stuff.",
+    "My name is Suphachai Hestmark, or 'Top' as a nickname. I'm a passionate developer with a passion for programming. It started out as a hobby, before I decided to make programming to bacome my full-time profession. Apart from programming I do also love to travel to new places, exercise and learning new stuff.",
   eMail: false,
   hrefEmail: null,
   contactForm: false,

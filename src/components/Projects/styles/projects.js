@@ -66,7 +66,7 @@ export const ProjectsCard = styled.a.attrs(() => ({
 
   &:hover {
     transform: scale(1.02);
-    transition: all 0.6s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background: #fff;
     color: ${theme.colors.dark4};
     cursor: pointer;

@@ -52,28 +52,29 @@ export const ProjectsWrapper = styled.div`
 export const ProjectsCard = styled.a.attrs(() => ({
   target: "_blank",
 }))`
-  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border-radius: 10px;
-  height: 340px;
+  border-radius: 20px;
+  height: 300px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   text-decoration: none;
-  color: ${theme.colors.dark4};
+  color: white;
   transition: all 0.2s ease-in-out;
 
   &:hover {
     transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    background: #fff;
+    color: ${theme.colors.dark4};
     cursor: pointer;
   }
 `;
 
 export const ProjectsIcon = styled.img`
-  height: 160px;
+  height: 125px;
   width: auto;
   margin-bottom: 10px;
 `;

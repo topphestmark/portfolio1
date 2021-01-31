@@ -1,8 +1,9 @@
-import Image1 from "../../images/rocket.svg";
-import Image2 from "../../images/netflix.svg";
-import Image3 from "../../images/covid-19.svg";
-import Image4 from "../../images/social-media.svg";
-import Image5 from "../../images/stripe.svg";
+import Image1 from "../../images/projects/rocket.svg";
+import Image2 from "../../images/projects/netflix.svg";
+import Image3 from "../../images/projects/covid-19.svg";
+import Image4 from "../../images/projects/social-media.svg";
+import Image5 from "../../images/projects/stripe.svg";
+import Image6 from "../../images/projects/chit-chat.svg";
 
 import {
   ProjectsContainer,
@@ -19,6 +20,14 @@ export default function Projects() {
     <ProjectsContainer id="projects">
       <ProjectsH1>Recent projects</ProjectsH1>
       <ProjectsWrapper>
+        <ProjectsCard href="https://chit-chat-8993.netlify.app/">
+          <ProjectsIcon src={Image6} alt="Chat" />
+          <ProjectsH2>Chit Chat</ProjectsH2>
+          <ProjectsP>
+            React-chat-engine API chat app with image upload feature. Guest
+            username: 'Janet', Password: 'password'
+          </ProjectsP>
+        </ProjectsCard>
         <ProjectsCard href="https://e-shop-dbc41.web.app/">
           <ProjectsIcon src={Image5} alt="Commerce" />
           <ProjectsH2>E-Shop</ProjectsH2>

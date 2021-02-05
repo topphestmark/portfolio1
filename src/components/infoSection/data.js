@@ -36,7 +36,7 @@ export const skillsSection = {
   topLine: "SKILLS",
   headLine: "TECH & TOOLS",
   description:
-    "HTML, CSS, JavaScript, React, Redux, Sass, styled-components, SEO, UX/UI, VSCode, Adobe XD, Lightroom, Photoshop",
+    "HTML, CSS, JavaScript, Typescript, React, Redux, styled-components, SEO, UX/UI, VSCode, Adobe XD, Lightroom, Photoshop",
   eMail: false,
   hrefEmail: null,
   contactForm: false,

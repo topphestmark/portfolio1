@@ -38,10 +38,10 @@ export const TextArea = styled.textarea`
   opacity: 0.85;
 `;
 export const Button = styled.button`
+  width: 100%;
   margin-top: 12px;
-  padding: 12px 50px;
+  padding: 12px;
   font-size: 16px;
-  background-color: transparent;
   background: ${(props) => props.theme.colors.primary};
   color: white;
   letter-spacing: 1px;

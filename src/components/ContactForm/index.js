@@ -10,7 +10,7 @@ import {
 
 const ContactForm = () => {
   return (
-    <>
+    <div>
       <FormHeader>Say Hi.</FormHeader>
       <Form name="contact" method="post" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
@@ -26,7 +26,7 @@ const ContactForm = () => {
 
         <Button type="submit">Send</Button>
       </Form>
-    </>
+    </div>
   );
 };
 

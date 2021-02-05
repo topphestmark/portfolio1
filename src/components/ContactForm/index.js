@@ -11,7 +11,7 @@ import {
 const ContactForm = () => {
   return (
     <>
-      <FormHeader>Comments</FormHeader>
+      <FormHeader>Say Hi.</FormHeader>
       <Form name="contact" method="post" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
 

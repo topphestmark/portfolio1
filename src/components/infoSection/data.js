@@ -16,7 +16,7 @@ export const aboutSection = {
   topLine: "ABOUT ME",
   headLine: "Front-end Developer",
   description:
-    "My name is Suphachai Hestmark, or 'Top' as a nickname. I'm a passionate developer with a passion for programming. It started out as a hobby, before I decided to make programming to bacome my full-time profession. Apart from programming I do also love to travel to new places, exercise and learning new stuff.",
+    "My name is Suphachai Hestmark, or 'Top' as a nickname. I have a background from the oil industry and have a strong desire to transform my career into the tech field. Like doing the work the I'm passionate about, learning new stuff everyday and helping out other people. Apart from programming I do also love to travel to new places, exercise and read books.",
   eMail: false,
   hrefEmail: null,
   contactForm: false,
@@ -54,9 +54,9 @@ export const contactSection = {
   profileImg: false,
   alt: "Collaboration",
   topLine: "CONTACT",
-  headLine: "Let's collaborate",
+  headLine: "Get in touch",
   description:
-    "I'm seeking out opportunities to collaborate with companies, agencies or individuals. I'll like to bring my skills to the table where we can work together. Send me an e-mail or leave a comment.",
+    "I'm seeking out opportunities to collaborate with companies, agencies or individuals. I'll like to bring my skills to the table for the real world projects and solving the real problems. Send me an e-mail or leave a comment.",
   eMail: true,
   hrefEmail: "mailto:top_hestmark@yahoo.no?subject=Hi!",
   contactForm: true,

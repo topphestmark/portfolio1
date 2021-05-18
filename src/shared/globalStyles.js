@@ -9,7 +9,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body::-webkit-scrollbar {
-  display: none;
-}
+    display: none;
+  }
 
+  body {
+    background-color: ${(props) => props.theme.colors.lightBg};
+  }
+  
 `;

@@ -1,36 +1,22 @@
-import React, { useState } from "react";
-import {
-  Sidebar,
-  Navbar,
-  HeroSection,
-  InfoSection,
-  Projects,
-  Footer,
-} from "../components";
+import { HeroSection } from "../components";
+import About from "./About";
+import Contact from "./Contact";
+import Projects from "./Projects";
+import Skills from "./Skills";
 
-import {
-  aboutSection,
-  skillsSection,
-  contactSection,
-} from "../components/infoSection/data";
+import { Container } from "./pages";
 
-export default function Home() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleHamburger = () => {
-    setIsOpen(!isOpen);
-  };
-
+export default function Pages() {
   return (
     <>
-      <Sidebar isOpen={isOpen} toggleHamburger={toggleHamburger} />
-      <Navbar toggleHamburger={toggleHamburger} />
       <HeroSection />
-      <InfoSection {...aboutSection} />
-      <Projects />
-      <InfoSection {...skillsSection} />
-      <InfoSection {...contactSection} />
-      <Footer />
+
+      <Container>
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+      </Container>
     </>
   );
 }

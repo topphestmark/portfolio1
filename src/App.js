@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import { Sidebar, Navbar, Footer, ScrollToTop } from "./components";
+import { Sidebar, Navbar, Footer } from "./components";
 import Pages from "./pages";
 
 export default function App() {
@@ -22,7 +22,6 @@ export default function App() {
         </Switch>
       </Router>
 
-      <ScrollToTop />
       <Footer />
     </>
   );

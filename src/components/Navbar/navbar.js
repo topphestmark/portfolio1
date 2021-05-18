@@ -5,8 +5,7 @@ import theme from "../../shared/theme";
 export const Nav = styled.nav`
   background: ${({ scrollNav }) =>
     scrollNav ? theme.colors.light1 : "transparent"};
-  color: ${({ scrollNav }) =>
-    scrollNav ? theme.colors.dark1 : theme.colors.light1};
+
   height: 80px;
   margin-top: -80px;
   display: flex;

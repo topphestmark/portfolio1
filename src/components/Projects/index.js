@@ -13,7 +13,7 @@ import {
   ProjectsIcon,
   ProjectsH2,
   ProjectsP,
-} from "./styles/projects";
+} from "./projects";
 
 export default function Projects() {
   return (

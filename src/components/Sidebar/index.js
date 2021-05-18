@@ -7,7 +7,7 @@ import {
   SidebarMenu,
   SidebarWrapper,
   SidebarMenuList,
-} from "./styles/sidebar";
+} from "./sidebar";
 
 export default function Sidebar({ isOpen, toggleHamburger }) {
   return (

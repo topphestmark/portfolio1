@@ -1,6 +1,6 @@
 import styled from "styled-components/macro";
 import { Link as LinkScroll } from "react-scroll";
-import theme from "../../../shared/theme";
+import theme from "../../shared/theme";
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) =>

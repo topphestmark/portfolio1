@@ -1,13 +1,19 @@
 import styled from "styled-components/macro";
+import image from "../../images/background.jpg";
 
 export const HeroContainer = styled.div`
-  background: ${(props) => props.theme.colors.dark4};
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
+  width: 100%;
   height: 100vh;
   z-index: 1;
+
+  background-image: url(${image});
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 
   :before {
     content: "";
@@ -26,27 +32,6 @@ export const HeroContainer = styled.div`
   }
 `;
 
-export const HeroBg = styled.div.attrs(() => ({
-  type: "video/mp4",
-}))`
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-`;
-
-export const VideoBg = styled.video`
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: ${(props) => props.theme.colors.dark5};
-`;
-
 export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1200px;
@@ -58,7 +43,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  color: ${(props) => props.theme.colors.primary};
+  color: ${(props) => props.theme.colors.light1};
   font-size: 18rem;
   text-align: center;
   animation: ${(props) => props.theme.slideTop.firstAnimation};

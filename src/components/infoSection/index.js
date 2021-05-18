@@ -12,7 +12,7 @@ import {
   TopLine,
   EmailWrapper,
   EmailLink,
-} from "./styles/infoSection";
+} from "./infoSection";
 import ContactForm from "../ContactForm";
 
 const InfoSection = ({

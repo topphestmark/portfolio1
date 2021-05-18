@@ -6,7 +6,7 @@ import {
   Input,
   TextArea,
   Button,
-} from "./styles/contactForm";
+} from "./contactForm";
 
 const ContactForm = () => {
   return (

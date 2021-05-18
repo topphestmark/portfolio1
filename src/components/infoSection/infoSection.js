@@ -1,5 +1,5 @@
 import styled from "styled-components/macro";
-import theme from "../../../shared/theme";
+import theme from "../../shared/theme";
 
 export const InfoContainer = styled.section`
   color: #fff;

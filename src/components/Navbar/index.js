@@ -8,7 +8,7 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-} from "./styles/navbar";
+} from "./navbar";
 
 const Navbar = ({ toggleHamburger }) => {
   const [scrollNav, setScrollNav] = useState(false);

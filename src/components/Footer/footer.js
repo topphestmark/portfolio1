@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 
 export const FooterContainer = styled.footer`
-  background-color: ${(props) => props.theme.colors.footerBg};
+  background-color: ${(props) => props.theme.colors.dark4};
 `;
 
 export const FooterWrap = styled.div`

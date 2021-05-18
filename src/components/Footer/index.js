@@ -7,7 +7,7 @@ import {
   SocialMedia,
   SocialMediaWrap,
   WebsiteRights,
-} from "./styles/footer";
+} from "./footer";
 
 export default function Footer() {
   return (

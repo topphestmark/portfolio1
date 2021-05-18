@@ -7,9 +7,8 @@ export default {
     dark3: "#0d0d0d",
     dark4: "#0c0c0c",
     dark5: "#232a34",
-    light1: "#f9f9f9",
+    light1: "#fff",
     light2: "#f7fafa",
-    footerBg: "#101522",
     formBg: "#010101",
   },
   slideTop: {

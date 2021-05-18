@@ -15,11 +15,11 @@ const Navbar = ({ toggleHamburger }) => {
 
   const changeNav = () => {
     let scrollingPosition = Math.ceil(window.scrollY);
-    return scrollingPosition >= 80 ? setScrollNav(true) : setScrollNav(false);
+    return scrollingPosition >= 200 ? setScrollNav(true) : setScrollNav(false);
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", changeNav);
+    window.onscroll = changeNav;
   }, []);
 
   return (

@@ -19,8 +19,15 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     width: 100%;
+    line-height: 1.625;
+    font-size: 1.125rem;
     max-width: 1920px;
     background-color: ${(props) => props.theme.colors.lightBg};
+
+    @media screen and (max-width: 768px) {
+          font-size: 0.975rem;
+    }
   }
+
   
 `;

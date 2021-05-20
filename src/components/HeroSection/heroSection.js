@@ -14,7 +14,6 @@ export const HeroContainer = styled.div`
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  filter: grayscale(50%) brightness(0.88); ;
 `;
 
 export const HeroContent = styled.div`

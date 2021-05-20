@@ -1,11 +1,11 @@
-import React from "react";
+import { Section } from "./skills";
 
 const Skills = () => {
   return (
-    <div style={{ minHeight: "100vh" }} id="skills">
+    <Section id="skills">
       {" "}
-      <h1>Skills</h1>{" "}
-    </div>
+      <h2>SKILLS</h2>{" "}
+    </Section>
   );
 };
 

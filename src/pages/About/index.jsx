@@ -1,5 +1,5 @@
 import { aboutObj } from "./data";
-import { Section, LeftContainer, RightContainer } from "./About";
+import { Section, LeftContainer, RightContainer } from "./about";
 
 const About = () => (
   <Section id="about">

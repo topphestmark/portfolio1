@@ -5,6 +5,8 @@ import theme from "../../shared/theme";
 export const Nav = styled.nav`
   background: ${({ scrollNav }) =>
     scrollNav ? theme.colors.light1 : "transparent"};
+  border-bottom: ${({ scrollNav }) =>
+    scrollNav ? "1px solid " + theme.colors.border : "transparent"};
 
   height: 80px;
   margin-top: -80px;
@@ -41,7 +43,7 @@ export const HamburgerMenu = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #fff;
+    color: ${(props) => props.theme.colors.dark};
   }
 `;
 
@@ -70,7 +72,7 @@ export const NavLinks = styled(LinkScroll)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid ${theme.colors.primary};
+    border-bottom: 4px solid ${theme.colors.primary};
     color: ${theme.colors.primary};
   }
 

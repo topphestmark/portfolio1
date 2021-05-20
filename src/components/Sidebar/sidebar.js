@@ -7,7 +7,7 @@ export const SidebarContainer = styled.aside`
   z-index: 100;
   width: 100%;
   height: 100%;
-  background: ${(props) => props.theme.colors.dark3};
+  background: ${(props) => props.theme.colors.dark2};
   display: grid;
   align-items: center;
   top: 0;
@@ -18,6 +18,9 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
+  position: absolute;
+  top: 0.5em;
+  right: 0.1em;
   color: #fff;
 `;
 

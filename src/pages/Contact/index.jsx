@@ -1,12 +1,13 @@
-import React from "react";
+import { Section } from "./contact";
 import { ContactForm } from "../../components";
 
 const Contact = () => {
   return (
-    <div style={{ minHeight: "100vh" }} id="contact">
+    <Section id="contact">
       {" "}
+      <h2>CONTACT</h2>
       <ContactForm />
-    </div>
+    </Section>
   );
 };
 

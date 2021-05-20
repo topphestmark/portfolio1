@@ -7,12 +7,14 @@ export const Section = styled.section`
   align-items: center;
 
   @media screen and (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-evenly;
   }
 `;
 
 export const LeftContainer = styled.div`
+  padding-bottom: 2em;
+
   h2 {
     font-size: 1.25rem;
     font-weight: 500;

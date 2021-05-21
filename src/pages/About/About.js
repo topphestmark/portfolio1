@@ -2,9 +2,11 @@ import styled from "styled-components/macro";
 
 export const Section = styled.section`
   min-height: 100vh;
+  max-width: 1400px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid ${(props) => props.theme.colors.border};
 
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;

@@ -6,10 +6,12 @@ export const Nav = styled.nav`
   background: ${({ scrollNav }) =>
     scrollNav ? theme.colors.light1 : "transparent"};
   border-bottom: ${({ scrollNav }) =>
-    scrollNav ? "1px solid " + theme.colors.border : "transparent"};
+    scrollNav ? "1px solid " + theme.colors.border : "none"};
+  color: ${({ scrollNav }) =>
+    scrollNav ? theme.colors.dark : theme.colors.light1};
 
-  height: 80px;
-  margin-top: -80px;
+  height: 60px;
+  margin-top: -60px;
   display: flex;
   justify-content: center;
   font-size: 1rem;
@@ -24,10 +26,10 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled.div`
   display: flex;
-  justify-content: flex-end;
-  height: 80px;
+  justify-content: center;
+  height: 60px;
   width: 100%;
-  padding: 0 24px;
+  padding: 0 20px;
   max-width: 1100px;
   z-index: 1;
 `;
@@ -38,8 +40,8 @@ export const HamburgerMenu = styled.div`
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -17px;
+    right: -15px;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -59,7 +61,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-  height: 80px;
+  height: 60px;
 `;
 
 export const NavLinks = styled(LinkScroll)`

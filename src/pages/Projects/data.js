@@ -11,11 +11,10 @@ export const projects = [
   {
     id: "1",
     icon: arkanoid,
-    title: "Title 1",
-    description:
-      "All the others do and nobody ever gets punished for doing so.",
-    stack: ["HTML", "CSS", "Javascript"],
-    link: "/",
+    title: "Arkanoid Game",
+    description: "Desktop 2D web game with a basic layout.",
+    stack: ["Typescript", "HTML", "CSS"],
+    link: "https://arkanoid-game-2d.netlify.app/",
   },
   {
     id: "2",
@@ -38,29 +37,26 @@ export const projects = [
   {
     id: "4",
     icon: shopping,
-    title: "Title 4",
-    description:
-      "All the others do and nobody ever gets punished for doing so.",
-    stack: ["HTML", "CSS", "Javascript"],
-    link: "/",
+    title: "E Commerce",
+    description: "E-commerce app with API from Commerce.js and Stripe.",
+    stack: ["ReactJS", "Commerce.js", "Stripe", "Material-UI"],
+    link: "https://e-shop-dbc41.web.app/",
   },
   {
     id: "5",
     icon: social_media,
-    title: "Title 5",
-    description:
-      "All the others do and nobody ever gets punished for doing so.",
-    stack: ["HTML", "CSS", "Javascript", "Javascript"],
-    link: "/",
+    title: "Dev Connector",
+    description: "Full-stack social media application.",
+    stack: ["ReactJS", "NodeJS", "Express", "MongoDB"],
+    link: "https://dev-connector-vs-555.herokuapp.com/",
   },
   {
     id: "6",
     icon: startup,
-    title: "Title 6",
-    description:
-      "All the others do and nobody ever gets punished for doing so.",
+    title: "SpaceX Missions",
+    description: "Semester project with SpaceX API.",
     stack: ["HTML", "CSS", "Javascript"],
-    link: "/",
+    link: "https://topphestmark.github.io/spacex-missions/index.html",
   },
   {
     id: "7",

@@ -2,9 +2,15 @@ import styled from "styled-components/macro";
 
 export const Section = styled.section`
   min-height: 100vh;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid ${(props) => props.theme.colors.border};
 
   h2 {
-    padding-top: 0.5em;
+    padding-top: 2em;
     font-size: 1.25rem;
     font-weight: 500;
     text-align: center;
@@ -13,19 +19,21 @@ export const Section = styled.section`
 `;
 
 export const Wrapper = styled.div`
+  width: 100%;
+  max-width: 1400px;
   display: grid;
-  grid-template-columns: repeat(4, 22vw);
+  grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(3, auto);
   justify-content: space-evenly;
   grid-gap: 1.25em;
   place-items: center;
   padding: 2em 0 4em 0;
 
-  @media screen and (max-width: 834px) {
+  @media screen and (max-width: 992px) {
     grid-template-columns: repeat(3, 30vw);
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 834px) {
     grid-template-columns: repeat(2, 45vw);
   }
 
@@ -35,13 +43,16 @@ export const Wrapper = styled.div`
 `;
 
 export const Card = styled.a`
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
+  background-color: ${(props) => props.theme.colors.light1};
   color: ${(props) => props.theme.colors.dark2};
-  border: 1.5px solid ${(props) => props.theme.colors.border};
-  border-radius: 2px;
+  border: 1.2px solid ${(props) => props.theme.colors.border};
+  border-radius: 12px;
   padding: 12px;
 
   img {

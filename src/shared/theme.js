@@ -6,6 +6,7 @@ export default {
     dark2: "#0d0d0d",
     light1: "#fff",
     border: "#e0e1e2",
+    lightgray: "#f7f7f8",
   },
   slideTop: {
     firstAnimation:

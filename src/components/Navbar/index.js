@@ -35,7 +35,7 @@ const Navbar = ({ toggleHamburger }) => {
               duration={200}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-60}
             >
               About
             </NavLinks>
@@ -47,7 +47,7 @@ const Navbar = ({ toggleHamburger }) => {
               duration={200}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-60}
             >
               Projects
             </NavLinks>
@@ -59,7 +59,7 @@ const Navbar = ({ toggleHamburger }) => {
               duration={200}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-60}
             >
               Skills
             </NavLinks>
@@ -71,7 +71,7 @@ const Navbar = ({ toggleHamburger }) => {
               duration={200}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-60}
             >
               Contact
             </NavLinks>

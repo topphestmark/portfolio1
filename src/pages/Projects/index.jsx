@@ -17,7 +17,7 @@ const Projects = () => {
 
       <Wrapper>
         {projects.map((project) => (
-          <Card href={project.link} key={project.id}>
+          <Card href={project.link} target="_blank" key={project.id}>
             <Image src={project.icon} alt={project.title} />
             <Title> {project.title} </Title>
             <Description> {project.description} </Description>

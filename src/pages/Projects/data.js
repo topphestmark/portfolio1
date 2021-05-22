@@ -19,20 +19,18 @@ export const projects = [
   {
     id: "2",
     icon: candlestick,
-    title: "Title 2",
-    description:
-      "All the others do and nobody ever gets punished for doing so.",
-    stack: ["HTML", "CSS", "Javascript"],
-    link: "/",
+    title: "Crypto Chart",
+    description: "Top 100 cryptocurrency chart per current market.",
+    stack: ["NextJS", "CSS", "Coingecko API"],
+    link: "https://crypto-coin-chart.netlify.app/",
   },
   {
     id: "3",
-    icon: coronavirus,
-    title: "Title 3",
-    description:
-      "All the others do and nobody ever gets punished for doing so.",
+    icon: startup,
+    title: "SpaceX Missions",
+    description: "SpaceX rocket launch schedule and countdown.",
     stack: ["HTML", "CSS", "Javascript"],
-    link: "/",
+    link: "https://topphestmark.github.io/spacex-missions/index.html",
   },
   {
     id: "4",
@@ -46,17 +44,18 @@ export const projects = [
     id: "5",
     icon: social_media,
     title: "Dev Connector",
-    description: "Full-stack social media application.",
+    description: "Full-stack social media application for developers.",
     stack: ["ReactJS", "NodeJS", "Express", "MongoDB"],
     link: "https://dev-connector-vs-555.herokuapp.com/",
   },
   {
     id: "6",
-    icon: startup,
-    title: "SpaceX Missions",
-    description: "Semester project with SpaceX API.",
+    icon: coronavirus,
+    title: "Title 6",
+    description:
+      "All the others do and nobody ever gets punished for doing so.",
     stack: ["HTML", "CSS", "Javascript"],
-    link: "https://topphestmark.github.io/spacex-missions/index.html",
+    link: "/",
   },
   {
     id: "7",

@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
   width: 100%;
   max-width: 1400px;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
   justify-content: space-evenly;
   grid-gap: 1.25em;
@@ -31,6 +31,7 @@ export const Wrapper = styled.div`
 
   @media screen and (max-width: 992px) {
     grid-template-columns: repeat(3, 30vw);
+    grid-gap: 0.875em;
   }
 
   @media screen and (max-width: 834px) {
@@ -61,7 +62,7 @@ export const Card = styled.a`
   }
 
   &:hover img {
-    transform: scale(1.15);
+    transform: scale(1.05);
     filter: none;
   }
 

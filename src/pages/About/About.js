@@ -44,7 +44,8 @@ export const RightContainer = styled.div`
     max-width: 360px;
     height: auto;
     border-radius: 50%;
-    padding: 1em;
+    margin: 2em;
+    ${(props) => props.theme.boxShadow}
   }
 
   @media screen and (min-width: 768px) {

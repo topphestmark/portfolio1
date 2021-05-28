@@ -23,7 +23,7 @@ const ContactForm = () => {
         <Label>Message:</Label>
         <TextArea minLength="12" name="message" rows="4" />
 
-        <Button type="submit">Send</Button>
+        <Button type="submit">Submit</Button>
       </Form>
     </div>
   );

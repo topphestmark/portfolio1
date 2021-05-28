@@ -57,7 +57,7 @@ export const Card = styled.a`
   transition: 0.25s ease-in-out;
   opacity: 0.8;
 
-  ${(props) => props.theme.boxShadow}
+  ${(props) => props.theme.boxShadow};
 
   img {
     transition: 0.25s ease-in;
@@ -114,4 +114,5 @@ export const StackItem = styled.span`
   font-size: 0.75rem;
   background: #efefef;
   border-radius: 2px;
+  opacity: 0.8;
 `;

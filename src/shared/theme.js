@@ -25,7 +25,7 @@ export default {
         opacity: 1;
       }`,
   },
-  borderRadius: "5px",
+  borderRadius: "4px",
   boxShadow: `
     box-shadow: 0px 4px 8px 1px rgba(224, 225, 226, 0.85);
     -webkit-box-shadow: 0px 4px 8px 1px rgba(224, 225, 226, 0.85);

@@ -17,35 +17,60 @@ export const Form = styled.form`
   align-items: flex-start;
 `;
 export const Label = styled.label`
-  font-size: 12px;
-  opacity: 0.6;
+  font-size: 0.75rem;
+  opacity: 0.8;
   margin-bottom: 3px;
+  color: ${(props) => props.theme.colors.dark2};
 `;
 export const Input = styled.input`
   width: 100%;
   font-size: 18px;
-  padding: 5px 3px;
+  padding: 0.375em 0.625em;
   margin-bottom: 8px;
   outline: 0;
-  opacity: 0.85;
+  color: ${(props) => props.theme.colors.dark2};
+  background-color: ${(props) => props.theme.colors.light};
+  border: 1px solid ${(props) => props.theme.colors.border};
+  border-radius: ${(props) => props.theme.borderRadius};
+
+  &:focus {
+    border: 1px solid transparent;
+    outline: 1px solid ${(props) => props.theme.colors.primary};
+    ${(props) => props.theme.boxShadow};
+  }
 `;
 export const TextArea = styled.textarea`
   width: 100%;
-  padding: 5px 3px;
+  padding: 0.375em 0.625em;
   font-size: 18px;
   resize: vertical;
   outline: 0;
-  opacity: 0.85;
+  color: ${(props) => props.theme.colors.dark2};
+  background-color: ${(props) => props.theme.colors.light};
+  border: 1px solid ${(props) => props.theme.colors.border};
+  border-radius: ${(props) => props.theme.borderRadius};
+
+  &:focus {
+    border: 1px solid transparent;
+    outline: 1px solid ${(props) => props.theme.colors.primary};
+    ${(props) => props.theme.boxShadow};
+  }
 `;
+
 export const Button = styled.button`
   width: 100%;
-  margin-top: 12px;
-  padding: 12px;
-  font-size: 16px;
+  margin-top: 1.2em;
+  padding: 10px;
+  font-size: 1.2rem;
   background: ${(props) => props.theme.colors.primary};
-  color: white;
+  color: ${(props) => props.theme.colors.light};
   letter-spacing: 1px;
   border: 0;
-  opacity: 0.95;
+  opacity: 1;
   cursor: pointer;
+
+  &:hover {
+    opacity: 0.85;
+    ${(props) => props.theme.boxShadow};
+  }
 `;

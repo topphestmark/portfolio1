@@ -13,3 +13,7 @@ export const Section = styled.section`
     color: ${(props) => props.theme.colors.primary};
   }
 `;
+
+export const Card = styled.div`
+  width: 100%;
+`;

@@ -8,7 +8,7 @@ import {
   Description,
   BottomWrapper,
   StackItem,
-} from "./projects";
+} from "./Projects";
 
 const Projects = () => {
   return (

@@ -1,4 +1,4 @@
-import { Section } from "./skills";
+import { Section } from "./Skills";
 
 const Skills = () => {
   return (

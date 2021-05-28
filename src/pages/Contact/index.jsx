@@ -1,4 +1,4 @@
-import { Section } from "./contact";
+import { Section } from "./Contact";
 import { ContactForm } from "../../components";
 
 const Contact = () => {

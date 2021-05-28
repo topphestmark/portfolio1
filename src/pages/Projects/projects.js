@@ -50,19 +50,26 @@ export const Card = styled.a`
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
-  background-color: ${(props) => props.theme.colors.light1};
+  background-color: ${(props) => props.theme.colors.light};
   color: ${(props) => props.theme.colors.dark2};
-  border: 1.2px solid ${(props) => props.theme.colors.border};
-  border-radius: 12px;
-  padding: 12px;
+  border-radius: ${(props) => props.theme.borderRadius};
+  padding: 14px;
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+
+  ${(props) => props.theme.boxShadow}
 
   img {
-    transition: 0.35s ease-in;
+    transition: 0.25s ease-in;
     filter: grayscale(80%);
   }
 
+  &:hover {
+    opacity: 1;
+  }
+
   &:hover img {
-    transform: scale(1.05);
+    transform: scale(1.03);
     filter: none;
   }
 

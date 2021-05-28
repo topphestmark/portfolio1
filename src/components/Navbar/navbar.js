@@ -4,11 +4,9 @@ import theme from "../../shared/theme";
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) =>
-    scrollNav ? theme.colors.light1 : "transparent"};
+    scrollNav ? theme.colors.light : "transparent"};
   border-bottom: ${({ scrollNav }) =>
     scrollNav ? "1px solid " + theme.colors.border : "none"};
-  color: ${({ scrollNav }) =>
-    scrollNav ? theme.colors.dark : theme.colors.light1};
 
   height: 60px;
   margin-top: -60px;

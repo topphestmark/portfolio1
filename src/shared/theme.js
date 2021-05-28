@@ -4,7 +4,7 @@ export default {
     primary: "#29b9f2",
     dark: "#000",
     dark2: "#0d0d0d",
-    light1: "#fff",
+    light: "#fff",
     border: "#e0e1e2",
     lightgray: "#f7f7f8",
   },
@@ -25,4 +25,10 @@ export default {
         opacity: 1;
       }`,
   },
+  borderRadius: "5px",
+  boxShadow: `
+    box-shadow: 0px 4px 8px 1px rgba(224, 225, 226, 0.85);
+    -webkit-box-shadow: 0px 4px 8px 1px rgba(224, 225, 226, 0.85);
+    -moz-box-shadow: 0px 4px 8px 1px rgba(224, 225, 226, 0.85);
+  `,
 };

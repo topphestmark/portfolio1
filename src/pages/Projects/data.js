@@ -36,7 +36,7 @@ export const projects = [
     id: "4",
     icon: shopping,
     title: "E Commerce",
-    description: "E-commerce app with API from Commerce.js and Stripe.",
+    description: "E-commerce app with Commerce.js CMS and Stripe.",
     stack: ["ReactJS", "Commerce.js", "Stripe", "Material-UI"],
     link: "https://e-shop-dbc41.web.app/",
   },
@@ -45,7 +45,7 @@ export const projects = [
     icon: social_media,
     title: "Dev Connector",
     description: "Full-stack social media application for developers.",
-    stack: ["ReactJS", "NodeJS", "Express", "MongoDB"],
+    stack: ["ReactJS", "NodeJS", "Express", "MongoDB", "Redux"],
     link: "https://dev-connector-vs-555.herokuapp.com/",
   },
   {

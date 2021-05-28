@@ -27,7 +27,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  color: ${(props) => props.theme.colors.light1};
+  color: ${(props) => props.theme.colors.light};
   font-size: 18rem;
   text-align: center;
   animation: ${(props) => props.theme.slideTop.firstAnimation};

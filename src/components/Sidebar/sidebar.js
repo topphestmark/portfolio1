@@ -12,7 +12,7 @@ export const SidebarContainer = styled.aside`
   align-items: center;
   top: 0;
   left: 0;
-  transition: 0.3s ease-in-out;
+  transition: 0.45s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 `;
@@ -20,7 +20,7 @@ export const SidebarContainer = styled.aside`
 export const CloseIcon = styled(FaTimes)`
   position: absolute;
   top: -0.09em;
-  right: -0.3em;
+  right: -0.35em;
   color: #fff;
 `;
 

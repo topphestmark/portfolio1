@@ -27,6 +27,8 @@ export const LeftContainer = styled.div`
   p {
     padding-bottom: 0.625em;
     font-weight: 300;
+    color: ${(props) => props.theme.colors.dark2};
+    opacity: 0.8;
   }
 
   @media screen and (min-width: 768px) {

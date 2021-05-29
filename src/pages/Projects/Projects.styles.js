@@ -8,14 +8,6 @@ export const Section = styled.section`
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid ${(props) => props.theme.colors.border};
-
-  h2 {
-    padding-top: 2em;
-    font-size: 1.25rem;
-    font-weight: 500;
-    text-align: center;
-    color: ${(props) => props.theme.colors.primary};
-  }
 `;
 
 export const Wrapper = styled.div`
@@ -27,7 +19,7 @@ export const Wrapper = styled.div`
   justify-content: space-evenly;
   grid-gap: 1.25em;
   place-items: center;
-  padding: 2em 0 4em 0;
+  padding-bottom: 4em;
 
   @media screen and (max-width: 992px) {
     grid-template-columns: repeat(3, 30vw);
@@ -53,24 +45,21 @@ export const Card = styled.a`
   background-color: ${(props) => props.theme.colors.light};
   color: ${(props) => props.theme.colors.dark2};
   border-radius: ${(props) => props.theme.borderRadius};
+  border: 1px solid ${(props) => props.theme.colors.border};
   padding: 14px;
   transition: 0.25s ease-in-out;
-  opacity: 0.8;
-
-  ${(props) => props.theme.boxShadow};
-
-  img {
-    transition: 0.25s ease-in;
-    filter: grayscale(80%);
-  }
 
   &:hover {
-    opacity: 1;
+    ${(props) => props.theme.boxShadow};
+  }
+
+  img {
+    width: 100%;
+    transition: 0.25s ease-in;
   }
 
   &:hover img {
     transform: scale(1.03);
-    filter: none;
   }
 
   @media screen and (min-width: 834px) {
@@ -83,18 +72,6 @@ export const Image = styled.img`
   height: 60px;
   margin: 1em 0;
   align-self: center;
-`;
-
-export const Title = styled.h3`
-  font-weight: 420;
-  font-size: 1.0125rem;
-  margin-bottom: 0.3em;
-`;
-
-export const Description = styled.p`
-  color: gray;
-  font-size: 0.875rem;
-  font-weight: 300;
 `;
 
 export const BottomWrapper = styled.div`
@@ -112,7 +89,7 @@ export const StackItem = styled.span`
   padding: 0.1em 0.5em;
   height: 22px;
   font-size: 0.75rem;
-  background: #efefef;
+  background: ${(props) => props.theme.colors.gray};
   border-radius: 2px;
   opacity: 0.8;
 `;

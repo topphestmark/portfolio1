@@ -5,7 +5,7 @@ export default function HeroSection() {
     <HeroContainer id="home">
       <HeroContent>
         <HeroH1>Hi</HeroH1>
-        <HeroP>This site is under maintenance.</HeroP>
+        <HeroP>My name is Top, nice to see you.</HeroP>
       </HeroContent>
     </HeroContainer>
   );

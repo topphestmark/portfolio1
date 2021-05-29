@@ -25,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${(props) => props.theme.colors.lightgray};
 
     @media screen and (max-width: 768px) {
-          font-size: 0.975rem;
+        font-size: 0.975rem;
     }
   }
 

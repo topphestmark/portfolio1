@@ -1,10 +1,32 @@
-import { Section, Card } from "./Skills.styles";
+import { skillsData } from "./skillsData";
+import { HeaderSection } from "../../shared/typography";
+import {
+  Section,
+  Wrapper,
+  Card,
+  Icon,
+  Title,
+  Foreword,
+  Item,
+} from "./Skills.styles";
 
 const Skills = () => {
   return (
     <Section id="skills">
       {" "}
-      <h2>SKILLS</h2>{" "}
+      <HeaderSection>SKILLS</HeaderSection>{" "}
+      <Wrapper>
+        {skillsData.map((data) => (
+          <Card key={data.id}>
+            <Icon src={data.icon} alt={data.title} />
+            <Title> {data.title} </Title>
+            <Foreword> {data.foreworld} </Foreword>
+            {data.items.map((item) => (
+              <Item key={item}> {item} </Item>
+            ))}
+          </Card>
+        ))}
+      </Wrapper>
     </Section>
   );
 };

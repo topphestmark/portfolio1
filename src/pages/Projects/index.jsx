@@ -1,11 +1,10 @@
 import { projects } from "./data";
+import { HeaderSection, Title, Description } from "../../shared/typography";
 import {
   Section,
   Wrapper,
   Card,
   Image,
-  Title,
-  Description,
   BottomWrapper,
   StackItem,
 } from "./Projects.styles";
@@ -13,7 +12,7 @@ import {
 const Projects = () => {
   return (
     <Section id="projects">
-      <h2>PROJECTS</h2>
+      <HeaderSection>PROJECTS</HeaderSection>
 
       <Wrapper>
         {projects.map((project) => (

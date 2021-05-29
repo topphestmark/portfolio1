@@ -6,6 +6,7 @@ export default {
     dark2: "#0d0d0d",
     light: "#fff",
     border: "#e0e1e2",
+    gray: "#efefef",
     lightgray: "#f7f7f8",
   },
   slideTop: {
@@ -25,7 +26,7 @@ export default {
         opacity: 1;
       }`,
   },
-  borderRadius: "4px",
+  borderRadius: "6px",
   boxShadow: `
     box-shadow: 0px 4px 8px 1px rgba(224, 225, 226, 0.85);
     -webkit-box-shadow: 0px 4px 8px 1px rgba(224, 225, 226, 0.85);

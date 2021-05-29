@@ -3,11 +3,6 @@ import { Link as LinkScroll } from "react-scroll";
 import theme from "../../shared/theme";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) =>
-    scrollNav ? theme.colors.light : "transparent"};
-  border-bottom: ${({ scrollNav }) =>
-    scrollNav ? "1px solid " + theme.colors.border : "none"};
-
   height: 60px;
   margin-top: -60px;
   display: flex;
@@ -16,6 +11,10 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 20;
+
+  background: ${({ scrollNav }) =>
+    scrollNav ? theme.colors.light : "transparent"};
+  ${({ scrollNav }) => (scrollNav ? theme.navShadow : "")}
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -70,6 +69,7 @@ export const NavLinks = styled(LinkScroll)`
   height: 100%;
   transition: 0.2s ease-in-out;
   cursor: pointer;
+  border-bottom: 4px solid transparent;
 
   &.active {
     border-bottom: 4px solid ${theme.colors.primary};

@@ -5,7 +5,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 2em;
   width: 100%;
   height: 100vh;
   z-index: 1;
@@ -23,7 +23,6 @@ export const HeroContent = styled.div`
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 `;
 
 export const HeroH1 = styled.h1`
@@ -40,15 +39,15 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroP = styled.p`
-  margin-top: 24px;
-  color: #fff;
-  font-size: 24px;
+  color: ${(props) => props.theme.colors.light};
+  font-size: 1.625rem;
+  margin-top: -2em;
   text-align: center;
   max-width: 600px;
   animation: ${(props) => props.theme.slideTop.secondAnimation};
 
   @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   ${(props) => props.theme.slideTop.keyframes};

@@ -7,16 +7,14 @@ export const skillsData = [
     id: 1,
     icon: designTools,
     title: "Tools",
-    foreworld:
-      "I keep the design simple and clean with thoughtful interactions.",
+    foreworld: "I keep things simple and clean with thoughtful interactions.",
     items: ["Adobe XD", "Lightroom", "Photoshop", "Figma"],
   },
   {
     id: 2,
     icon: code,
     title: "Languages",
-    foreworld:
-      "I love to organize and writing clean codes to make things more maintainable.",
+    foreworld: "Languages and library that I've been using regulary.",
     items: [
       "HTML",
       "CSS",

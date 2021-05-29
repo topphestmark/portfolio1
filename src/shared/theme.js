@@ -32,4 +32,9 @@ export default {
     -webkit-box-shadow: 0px 4px 8px 1px rgba(224, 225, 226, 0.85);
     -moz-box-shadow: 0px 4px 8px 1px rgba(224, 225, 226, 0.85);
   `,
+  navShadow: `
+    box-shadow: 0px 5px 8px 0px rgba(224,225,226,0.64);
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(224,225,226,0.64);
+    -moz-box-shadow: 0px 5px 8px 0px rgba(224,225,226,0.64);
+  `,
 };

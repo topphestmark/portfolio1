@@ -59,7 +59,7 @@ export const Title = styled.h3`
 `;
 export const Foreword = styled.p`
   margin: 0.75em 0 1.5em 0;
-  font-weight: 200;
+  font-weight: 300;
   padding-bottom: 1.25em;
   border-bottom: 0.4px solid ${(props) => props.theme.colors.border};
 

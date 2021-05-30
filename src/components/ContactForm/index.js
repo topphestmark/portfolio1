@@ -1,16 +1,8 @@
-import {
-  FormHeader,
-  Form,
-  Label,
-  Input,
-  TextArea,
-  Button,
-} from "./contactForm";
+import { Form, Label, Input, TextArea, Button } from "./contactForm";
 
 const ContactForm = () => {
   return (
     <div>
-      <FormHeader>Say Hi.</FormHeader>
       <Form name="contact" method="post" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
 

@@ -1,18 +1,5 @@
 import styled from "styled-components/macro";
 
-export const FormHeader = styled.h4`
-  margin-left: 0.2em;
-  margin-bottom: 0.25em;
-  font-size: 1.5rem;
-  font-weight: 500;
-  opacity: 0.85;
-  color: ${(props) => props.theme.colors.dark1};
-
-  @media screen and (max-width: 768px) {
-    margin-top: 50px;
-  }
-`;
-
 export const Form = styled.form`
   display: flex;
   flex-direction: column;

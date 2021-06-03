@@ -69,10 +69,10 @@ export const projects = [
   {
     id: "8",
     icon: streaming,
-    title: "Title 8",
+    title: "Netflix TMDB",
     description:
       "All the others do and nobody ever gets punished for doing so.",
-    stack: ["HTML", "CSS", "Javascript"],
-    link: "/",
+    stack: ["ReactJS", "Styled-components", "Firebase", "Axios", "TMDb"],
+    link: "https://netflix-tmdb.firebaseapp.com",
   },
 ];

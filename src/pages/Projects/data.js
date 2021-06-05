@@ -1,6 +1,6 @@
 import arkanoid from "../../images/icons/arkanoid.svg";
 import candlestick from "../../images/icons/candlestick.svg";
-import coronavirus from "../../images/icons/coronavirus.svg";
+import vaccine from "../../images/icons/vaccine.svg";
 import shopping from "../../images/icons/shopping.svg";
 import social_media from "../../images/icons/social-media.svg";
 import startup from "../../images/icons/startup.svg";
@@ -50,12 +50,11 @@ export const projects = [
   },
   {
     id: "6",
-    icon: coronavirus,
-    title: "Title 6",
-    description:
-      "All the others do and nobody ever gets punished for doing so.",
-    stack: ["HTML", "CSS", "Javascript"],
-    link: "/",
+    icon: vaccine,
+    title: "Covid Vaccines Tracker",
+    description: "Covid-19 vaccines tracker web app.",
+    stack: ["NextJS", "Styled-components", "Typescript", "Rechart"],
+    link: "https://covid-vaccines-tracker.netlify.app/",
   },
   {
     id: "7",

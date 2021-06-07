@@ -14,6 +14,7 @@ export const Nav = styled.nav`
 
   background: ${({ scrollNav }) =>
     scrollNav ? theme.colors.light : "transparent"};
+
   ${({ scrollNav }) => (scrollNav ? theme.navShadow : "")}
 
   @media screen and (max-width: 960px) {

@@ -1,4 +1,4 @@
-import arkanoid from "../../images/icons/arkanoid.svg";
+import beer from "../../images/icons/beer.svg";
 import vaccine from "../../images/icons/vaccine.svg";
 import shopping from "../../images/icons/shopping.svg";
 import social_media from "../../images/icons/social-media.svg";
@@ -10,11 +10,11 @@ import online_shopping from "../../images/icons/online-shopping.svg";
 export const projects = [
   {
     id: "1",
-    icon: arkanoid,
-    title: "Arkanoid Game",
-    description: "Desktop 2D web game with a basic layout.",
-    stack: ["Typescript", "HTML", "CSS"],
-    link: "https://arkanoid-game-2d.netlify.app/",
+    icon: beer,
+    title: "Barfinder",
+    description: "Find the bar nearby with Google Maps location services.",
+    stack: ["Typescript", "ReactJS", "Styled-components"],
+    link: "https://barfinder-317409.web.app/",
   },
   {
     id: "2",

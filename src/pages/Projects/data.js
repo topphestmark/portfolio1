@@ -1,10 +1,10 @@
 import beer from "../../images/icons/beer.svg";
 import vaccine from "../../images/icons/vaccine.svg";
 import shopping from "../../images/icons/shopping.svg";
-import social_media from "../../images/icons/social-media.svg";
+// import social_media from "../../images/icons/social-media.svg";
 import startup from "../../images/icons/startup.svg";
 import stock from "../../images/icons/stock.svg";
-import streaming from "../../images/icons/streaming.svg";
+// import streaming from "../../images/icons/streaming.svg";
 import online_shopping from "../../images/icons/online-shopping.svg";
 
 export const projects = [
@@ -40,32 +40,32 @@ export const projects = [
     stack: ["ReactJS", "Commerce.js", "Stripe", "Material-UI"],
     link: "https://e-shop-dbc41.web.app/",
   },
+  // {
+  //   id: "5",
+  //   icon: social_media,
+  //   title: "Dev Connector",
+  //   description: "Full-stack social media application for developers.",
+  //   stack: ["ReactJS", "NodeJS", "Express", "MongoDB", "Redux", "Bootstrap"],
+  //   link: "https://dev-connector-vs-555.herokuapp.com/",
+  // },
   {
     id: "5",
-    icon: social_media,
-    title: "Dev Connector",
-    description: "Full-stack social media application for developers.",
-    stack: ["ReactJS", "NodeJS", "Express", "MongoDB", "Redux", "Bootstrap"],
-    link: "https://dev-connector-vs-555.herokuapp.com/",
-  },
-  {
-    id: "6",
     icon: vaccine,
     title: "Covid Vaccines Tracker",
     description: "Covid-19 vaccines tracker web app.",
     stack: ["NextJS", "Styled-components", "Typescript", "Rechart"],
     link: "https://covid-vaccines-tracker.netlify.app/",
   },
+  // {
+  //   id: "7",
+  //   icon: streaming,
+  //   title: "Netflix TMDB",
+  //   description: "Netflix movie banner UI from 2020.",
+  //   stack: ["ReactJS", "Styled-components", "Firebase", "Axios", "TMDb"],
+  //   link: "https://netflix-tmdb.firebaseapp.com",
+  // },
   {
-    id: "7",
-    icon: streaming,
-    title: "Netflix TMDB",
-    description: "Netflix movie banner UI from 2020.",
-    stack: ["ReactJS", "Styled-components", "Firebase", "Axios", "TMDb"],
-    link: "https://netflix-tmdb.firebaseapp.com",
-  },
-  {
-    id: "8",
+    id: "6",
     icon: online_shopping,
     title: "Nordic Swag",
     description: "Vanilla javascript e-commerce project with CRUD operation.",

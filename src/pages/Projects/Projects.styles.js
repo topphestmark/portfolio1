@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
   width: 100%;
   max-width: 1400px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-template-rows: repeat(3, auto);
   justify-content: space-evenly;
   grid-gap: 1.25em;
@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
   padding-bottom: 4em;
 
   // Added this when reduced cards down to 6
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1200px) {
     grid-template-columns: repeat(3, 30vw);
     grid-gap: 0.875em;
   }
@@ -63,13 +63,14 @@ export const Card = styled.a`
     transform: scale(1.03);
   }
 
-  @media screen and (min-width: 992px) {
+  // Add this in case the fewer cards
+  /* @media screen and (min-width: 992px) {
     min-width: 330px;
   }
 
   @media screen and (min-width: 834px) {
     max-width: 300px;
-  }
+  } */
 `;
 
 export const Image = styled.img`

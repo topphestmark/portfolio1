@@ -50,7 +50,7 @@ export const projects = [
     link: "https://dev-connector-vs-555.herokuapp.com/",
   },
   {
-    id: "5",
+    id: "6",
     icon: vaccine,
     title: "Covid Vaccines Tracker",
     description: "Covid-19 vaccines tracker web app.",
@@ -72,7 +72,7 @@ export const projects = [
     link: "https://holidaze-inn.web.app/",
   },
   {
-    id: "6",
+    id: "8",
     icon: online_shopping,
     title: "Nordic Swag",
     description: "Vanilla javascript e-commerce project.",

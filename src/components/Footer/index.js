@@ -38,7 +38,7 @@ export default function Footer() {
                 <FaLinkedin />
               </SocialIconLink>
               <SocialIconLink
-                href="https://github.com/ToppHestmark/"
+                href="https://github.com/topphestmark/"
                 target="_blank"
                 aria-label="Github"
               >
